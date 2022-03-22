@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio</title>
+    <style>
+         #container{
+           min-height: 10vh;
+           text-align: center;
+           max-width: 300px;
+           margin: 0px auto;
+          
+            
+            
+        }
+        body{
+            margin: 0px;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: coral;
+            
+        }
+        
+        header{
+            background-color: lightslategrey;
+            padding: 5vh;
+            text-align: center;
+        
+
+        }
+        
+        
+       
+        .centro2{
+            text-align: center;
+            display: block;
+        }
+        button{
+        background-color: royalblue;
+        padding: 20px;
+        display: block;
+        margin: 3vh auto;
+       
+        }
+        .test{
+        margin: 0;
+        }
+        .testando{
+            text-align: center;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class = 'centro'> <h1 class="centro"> Página de Sorteio</h1></div>
+    </header>
+    <div id="container"><span><h1 class="test">Aperte no botão para sortear um número de</span> <span class ='centro2'> 1 até 100 </span> </h1></div>
+    <button onclick="escreverResultado()"> <h1> SORTEAR  </h1></button>
+    <h1 id="resultado">  </h1>
+
+<script src="./javascript.js"></script>
+</body>
+</html>
